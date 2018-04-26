@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:layout_margin="0dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="직원 상세정보"
+        android:gravity="center_horizontal"
+        android:padding="20dp"/>
+
+
+    <EditText
+        android:id="@+id/editTextUserNameToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="이름"
+        android:singleLine="true"
+        >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextUserIdToSignUp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="이메일"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextPasswordToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="비밀번호"
+        android:inputType="textPassword"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextConfirmPasswordToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="비밀번호 확인"
+        android:inputType="textPassword"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextAddressToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="주소"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextCityToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="도시"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextZipCodeToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="우편번호"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextCountryToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="나라"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editTextNumberToSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="20"
+        android:hint="연락처 "
+        android:singleLine="true"/>
+
+    <Button
+        android:id="@+id/buttonSignup1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="계정 만들기" />
+
+</LinearLayout>
